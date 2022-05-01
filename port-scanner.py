@@ -13,5 +13,5 @@ def portScanner(puerto):
         print(' -$- Puerto %d Esta Abierto' % (puerto))
 
 
-for puerto in range(1, 10):
+for puerto in range(1, 1000):
     portScanner(puerto)
