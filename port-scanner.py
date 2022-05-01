@@ -2,8 +2,8 @@ import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-host = "192.168.1.88"  # IPv4 adress of the target
-port = 443  # port tarjet
+host = "100.00.0.0"  # IPv4 adress of the target
+port = 445  # port tarjet
 
 
 def portScanner(port):
